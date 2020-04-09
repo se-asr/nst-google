@@ -10,3 +10,5 @@ The data can be found in the file `nst-test.csv`, which has the following column
 - **wav_filename**: path to the sound file in the NST Testing set
 - **transcription**: the original transcription provided in the NST Testing set
 - **google_transcription**: the transcription predicted by Google's Speech-to-text service
+
+The file paths in the `wav_filename` column assumes that the testing part of the NST dataset has been extracted into a directory named `test`. All paths are relative to the directory containing the `test` directory.
